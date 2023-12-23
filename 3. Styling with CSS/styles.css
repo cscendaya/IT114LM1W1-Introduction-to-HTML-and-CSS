@@ -9,6 +9,12 @@
     
     /* TODO 3.5: Add an underline to the text */
     
+    text-align: center;
+    color:cadetblue;
+    font-weight:10px;
+    font-size:60px;
+    text-decoration: underline;
+
 }
 
 .paragraph-style {
@@ -17,7 +23,9 @@
     /* TODO 3.7: Change the font to  */
     
     /* TODO 3.8: Increase the space between lines */
-
+    font-style: italic;
+    font-family: Arial;
+    line-height: 3;
 }
 
 .box {
@@ -26,5 +34,12 @@
     /* TODO 3.10: Change the background color fo the div. Can you find a way to make the background color 50% transparent? */
     
     /* TODO 3.11: Play around with the margin, padding and border. Can you find a way to set the size of specific sides? */
-
+    width:100%;
+    height:150%;
+    background-color:rgba(127, 255, 212, 0.50);
+    margin:8px 10px;
+    padding:8px 10 px;
+    border: 5px solid salmon;
 }
+ 
+    /* upload a font for challenge*/
